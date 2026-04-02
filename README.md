@@ -1,73 +1,71 @@
-# 💸 Blockchain-Based Microloan Payment System
+💸 Blockchain-Powered Microloan Payment Platform
 
-A **Blockchain-based Microloan Platform** that enables borrowers and lenders to connect **directly without banks or intermediaries**.
-This decentralized application (DApp) leverages **Ethereum smart contracts** to automate loan creation, funding, and repayment — ensuring **transparency, security, and financial inclusion**.
+A decentralized microloan application that allows borrowers and lenders to interact directly without traditional banks or middlemen.
+This DApp uses Ethereum smart contracts to automate loan creation, funding, and repayment—offering security, transparency, and improved financial accessibility.
 
----
+🚀 Key Features
 
-## 🚀 Features
+👤 Borrower Panel — Submit loan requests, check previous loans, and monitor repayment progress.
 
-- 👤 **Borrower Dashboard** — Request loans, view loan history, and track repayment status.
-- 💰 **Lender Dashboard** — Browse available loans, fund them securely, and monitor repayments.
-- 🔐 **Smart Contracts (Solidity)** — Automatically handle loan approval, funding, and repayments.
-- 💳 **Credit Scoring System** — Dynamic score updates based on repayment behavior.
-- 🌐 **MetaMask Integration** — Secure Ethereum wallet connection for transactions.
-- 📊 **Transparent Records** — Every transaction is stored permanently on the blockchain.
-- 🎨 **Modern UI** — Clean, responsive interface built for a smooth Web3 experience.
+💰 Lender Panel — View available loan requests, fund them safely, and track repayments.
 
----
+🔐 Solidity Smart Contracts — Automatically manage loan approval, funding, and repayment logic.
 
-## 🧩 How to Run Locally
+💳 Credit Score Mechanism — Credit score adjusts based on borrower repayment performance.
 
-### 1️⃣ Clone the Repository
-```bash
+🌐 MetaMask Support — Easily connect your Ethereum wallet for secure transactions.
+
+📊 Transparent Ledger — All activities are permanently recorded on the blockchain.
+
+🎨 Clean User Interface — Modern and responsive UI for a smooth Web3 experience.
+
+🧩 How to Run the Project Locally
+1️⃣ Clone the Repository
 git clone https://github.com/divyapatel30/Blockchain-Microloan-System.git
 cd Blockchain-Microloan-System
-```
 
-### 2️⃣ Install Dependencies
-```bash
+2️⃣ Install Node Dependencies
 npm install
-```
 
-### 3️⃣ Start Local Blockchain (Hardhat)
-```bash
+3️⃣ Launch the Local Blockchain (Hardhat)
 npx hardhat node
-```
 
-### 4️⃣ Deploy Smart Contract
-```bash
+4️⃣ Deploy the Smart Contract
 npx hardhat run scripts/deploy.js --network localhost
-```
 
-### 5️⃣ Run the Frontend
-Open index.html in your browser (or use Live Server) and connect MetaMask to localhost:8545.
+5️⃣ Start the Frontend
 
----
+Open the index.html file in a browser (or use Live Server) and connect MetaMask to localhost:8545.
 
-🧰 Additional Requirements
+🛠️ Requirements
 
-Before running the project, make sure you have these installed:
+Make sure the following tools are installed before starting:
 
-- Node.js (v18 or above) — Required to run Hardhat and npm commands  
-- npm (Node Package Manager) — Comes with Node.js  
-- Hardhat — Local Ethereum blockchain development environment  
-- MetaMask Browser Extension — To connect wallet and interact with smart contracts  
-- Ethers.js — JavaScript library to communicate with Ethereum blockchain  
-- Visual Studio Code — Recommended code editor  
-- Google Chrome / Brave Browser — Compatible browsers for MetaMask  
-- Solidity Compiler (via Hardhat) — For compiling and deploying smart contracts
+Node.js (v18 or higher) — Required for Hardhat and npm
 
-Optional (for better development experience):
+npm — Package manager for JavaScript
 
-- ✅ Hardhat Toolbox Plugin — For advanced testing and debugging  
-- ✅ Live Server Extension (VS Code) — To preview frontend easily  
-- ✅ Ganache — Alternative to Hardhat for testing blockchain locally
+Hardhat — Local Ethereum development environment
 
----
+MetaMask Extension — For wallet connection and transactions
 
-🔒 Smart Contract Overview
+Ethers.js — To interact with the blockchain via JavaScript
 
+VS Code — Recommended code editor
+
+Chrome / Brave — Works best with MetaMask
+
+Solidity Compiler — Comes with Hardhat for contract compilation
+
+Optional tools for enhanced development:
+
+✔ Hardhat Toolbox (testing & debugging)
+
+✔ Live Server (quick frontend preview)
+
+✔ Ganache (another local blockchain option)
+
+🔒 Smart Contract Summary
 struct Loan {
     uint id;
     address borrower;
@@ -80,13 +78,17 @@ struct Loan {
     bool isDefaulted;
 }
 
-Key Functions:
+Main Functions:
 
-- requestLoan() — Borrower requests a loan.
-- fundLoan() — Lender funds the requested loan.
-- repayLoan() — Borrower repays the loan.
-- checkDefault() — Checks if loan is overdue.
-- getCreditScore() — Retrieves borrower’s credit score.
+requestLoan() — Allows borrowers to create a loan request.
+
+fundLoan() — Lets lenders fund pending loan requests.
+
+repayLoan() — Borrower makes loan repayments.
+
+checkDefault() — Identifies overdue or unpaid loans.
+
+getCreditScore() — Fetches the borrower’s credit score.
 
 ---
 
@@ -124,8 +126,8 @@ MetaMask Transaction Popup
 
 👩‍💻 Developer
 
-Divya Patel  
-📧 divyapatel3043@gmail.com
+Manisha Choudhary 
+📧 choudharymanisha0605@gmail.com
 
 🪙 License
 
