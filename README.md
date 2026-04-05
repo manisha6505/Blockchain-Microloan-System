@@ -21,7 +21,7 @@ This DApp uses Ethereum smart contracts to automate loan creation, funding, and 
 
 🧩 How to Run the Project Locally
 1️⃣ Clone the Repository
-git clone https://github.com/divyapatel30/Blockchain-Microloan-System.git
+git clone https://github.com/manisha6505/Blockchain-Microloan-System.git
 cd Blockchain-Microloan-System
 
 2️⃣ Install Node Dependencies
